@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+  box-shadow: 0 0 10px -5px #ffffff;
+}
+
+#body {
+  background-image: linear-gradient(to left bottom, #1e201e, #252724, #2c2e2a, #343631, #3c3d37);
+}
+
+#single-todo:last-child {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+#single-todo {
+  transition: all 500ms ease;
+}
+
+.todoClicked {
+  position: relative;
+  border-radius: 12px;
+  z-index: 10;
+  box-shadow: 0 0 20px -1px white;
+}
